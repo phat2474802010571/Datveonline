@@ -1,3 +1,6 @@
+import dns from 'node:dns';
+// Sửa lỗi querySrv ECONNREFUSED khi DNS mạng không trả được bản ghi SRV của Atlas
+dns.setServers(['8.8.8.8', '1.1.1.1']);
 import express from 'express';
 import { MongoClient } from 'mongodb';
 import {
