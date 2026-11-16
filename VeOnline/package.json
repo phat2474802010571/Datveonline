@@ -10,6 +10,7 @@
     "start": "node server/index.js"
   },
   "dependencies": {
+    "dotenv": "^18.0.10",
     "express": "^5.1.0",
     "jsqr": "^1.4.0",
     "mongodb": "^6.16.0",
