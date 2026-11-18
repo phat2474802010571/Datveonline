@@ -1,6 +1,8 @@
 
 import 'dotenv/config';
 import { MongoClient } from 'mongodb';
+import dns from 'node:dns';
+dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 // Danh sách tài khoản MongoDB Atlas
 const mongoAccounts = {

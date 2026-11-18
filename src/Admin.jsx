@@ -5,7 +5,7 @@ import React, {
   useState
 } from 'react';
 
-import { AdminSeats } from './upgrade.jsx';
+import { AdminSeats } from './SeatsAndPassword.jsx';
 
 // ========================================
 // VEONLINE ADMIN

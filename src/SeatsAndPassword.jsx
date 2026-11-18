@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './upgrade.css';
+import './seats-password.css';
 
 const IDS = ['A', 'B', 'C', 'D', 'E'];
 const money = n =>

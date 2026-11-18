@@ -10,10 +10,10 @@ import Admin from './Admin.jsx';
 import {
   PasswordRecovery,
   SeatPicker
-} from './upgrade.jsx';
+} from './SeatsAndPassword.jsx';
 
 import './style.css';
-import './upgrade.css';
+import './seats-password.css';
 
 const money = value =>
   Number(value || 0).toLocaleString('vi-VN') + 'đ';

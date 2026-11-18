@@ -24,7 +24,7 @@ import {
   connectMongoDB
 } from './mongodb.js';
 
-import { installUpgrade } from './upgrade.js';
+import { installUpgrade } from './seats-password.js';
 import { installTicketReceipts } from './ticket-receipt.js';
 import { installPayments } from './payments.js';
 
